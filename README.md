@@ -3,11 +3,14 @@
 FlaskCRUDy is a simple CRUD (Create, Read, Update, Delete) web application built with Flask, the lightweight WSGI web application framework in Python. This project demonstrates basic CRUD operations on a simple data model.
 
 ## Features
-
-- **Create:** Add new records to the database.
-- **Read:** View the list of all records in the database.
-- **Update:** Modify the details of existing records.
-- **Delete:** Remove records from the database.
+1. User Authentication: Users can register for an account and log in to the application.
+2. Create Blog Posts: Logged-in users can create new blog posts and upload images.
+3. Read Blog Posts: Users can view all blog posts or filter to see only posts from specific users.
+4. Update Blog Posts: Users can edit their own blog posts.
+5. Delete Blog Posts: Users can delete their own blog posts.
+6. Database Integration: The application connects to a local database to store user and blog post information.
+7. Logout: Users can securely log out of the application.
+  
 
 ## Getting Started
 
